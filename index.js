@@ -18,13 +18,23 @@ function johnLennonFacts(facts){
   return excitedFacts
 }
 
+//function iLoveTheBeatles(num) {
+//  const arr = []
+
+//  do {
+//    arr.push('I love the Beatles!');
+//    num++
+//} while (15 > num)
+//
+//return arr
+//}
+
 function iLoveTheBeatles(num) {
   const arr = []
 
   do {
     arr.push('I love the Beatles!');
     num++
-} while (15 > num)
-
-return arr
+  } while (num > 15)
+  return arr
 }
